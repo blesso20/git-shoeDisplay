@@ -1,0 +1,97 @@
+.black{
+    width: 24%;
+    height: 150px;
+    float: left;
+    padding: 100px 40px 60px 80px;
+    text-align: center;
+    margin: auto;
+}
+
+.all h1{
+    text-align: center;
+    /* color: blue; */
+    font-size: 80px;
+    font-weight: 800px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+.all h3{
+    font-size: 16px;
+   padding-left: 50px;
+   font-weight: 800px;
+   font-family: 'Work Sans', sans-serif;
+}
+
+ h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800px;
+    padding: 55px 0;
+    font-family: 'Work Sans', sans-serif;
+    padding-bottom: -90px;
+}
+
+main{
+    background-image: url('./image/2.webp');
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-position: top; */
+    background-attachment: fixed;
+    height: 900px;
+    margin-top: 50px;
+}
+.frame{
+    width: 60%;
+    height: 750px;
+    margin-left: 175px;
+    background-color: pink;
+}
+.form-group input, .form-group select{
+ width: 50%;
+ margin: auto;
+}
+label{
+    padding: 0 170px ;
+    font-size: 22px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.btn{
+    margin-left: 77px;
+}
+.btn input{
+    width: 20.5rem ;
+}
+@media screen and (max-width:900px){
+.frame{
+    .frame{
+        width: 60%;
+        height: 750px;
+        margin-left: 175px;
+       
+    }
+}
+.btn{
+    margin-left: 77px;
+}
+.btn input{
+    width: 20.5rem ;
+}
+
+label{
+    padding: 0 170px ;
+    font-size: 22px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+}
+@media screen and (min-width: 900px){
+    .black{
+        width: 20%;
+        height: 150px;
+        float: left;
+        padding: 100px 40px 60px 80px;
+        text-align: center;
+    }
+}
